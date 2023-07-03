@@ -1,3 +1,7 @@
+/**To detect cycle in a linked list
+ * https://leetcode.com/problems/linked-list-cycle-i
+ */
+
 public class Solution {
     public boolean hasCycle(ListNode head) {
         ListNode slow=head;
