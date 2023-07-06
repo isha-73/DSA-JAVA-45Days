@@ -10,7 +10,7 @@ class Solution {
         ListNode after=null;
         int count=0;
         while(curr!=null){
-            after=curr.next;
+        after=curr.next;
         if(prev!=null && after!=null){
             if( (curr.val>prev.val && curr.val>after.val)
              || (curr.val<prev.val && curr.val<after.val)){
