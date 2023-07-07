@@ -10,6 +10,8 @@
  * None of the pointers in the new list should point to nodes in the original list.
  * 
  */
+
+
 class Solution {
     public Node copyRandomList(Node head) {
         //create deep copy

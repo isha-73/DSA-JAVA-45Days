@@ -2,6 +2,9 @@
  * 
  * https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621
  */
+
+import java.util.Stack;
+
 class Solution
 {
     //Function to calculate the span of stockâ€™s price for all n days.
