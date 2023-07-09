@@ -27,6 +27,7 @@ public class ReduceInterleaveQueue {
             st.push(q.remove()); 
             // 14 15 16
         } 
+        
         // queue: 13 12 11
         // stack: 16 15 14
         // continue enquing stack elements and dequeuing-enquing queue elements
