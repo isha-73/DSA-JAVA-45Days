@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 
- public class Solution {
+ class Solution {
     public static int isCyclicRotation(String p, String q) {
         if (p.length() != q.length()) {
             return 0;  // Strings of different lengths cannot be cyclic rotations
