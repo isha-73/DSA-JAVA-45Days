@@ -69,8 +69,8 @@ public class Dfs {
         for (int i = graph[start].size() - 1; i >= 0; i--) {
             Edge e = graph[start].get(i);
             if (!visited[e.dest]) {
-                // dfs(graph, e.dest, visited);
-                dfsStack(graph, e.dest, visited);
+                dfs(graph, e.dest, visited);
+
             }
         }
 
